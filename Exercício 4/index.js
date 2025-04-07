@@ -7,7 +7,7 @@ if (isNaN(valorCompra)){ //condição se o valor não for um número
 }
 
 if (valorCompra >= 100){ //condição se o número for maior ou igual a 100
-    alert (`Você ganhou um desconto de 10% por que sua conta passou de 100 reais, o valor do desconto é ${valorDesconto.toFixed(2)} e o valor final é ${valorDescontado.toFixed(2)}`)
+    alert (`Você ganhou um desconto de 10% por que sua compra passou de 100 reais, o valor do desconto é ${valorDesconto.toFixed(2)} e o valor final é ${valorDescontado.toFixed(2)}`)
 }
 
 if (valorCompra <100) { //condição se o número for menor que 100
