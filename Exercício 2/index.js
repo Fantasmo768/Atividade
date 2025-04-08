@@ -1,6 +1,6 @@
 let idade = parseInt(prompt("Insira sua idade")); //Declarar  a váriavel da idade
 
-while (isNaN(idade)){
+if (isNaN(idade)){
     idade = parseFloat(prompt("Insira um valor válido")) //enquanto o usuário não inserir um valor válido ele poderá tentar novamente
 }
 
