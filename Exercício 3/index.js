@@ -1,6 +1,6 @@
 let numero = parseInt(prompt("Insira um número")); // Declarar a váriavel do número
 
-while (isNaN(numero)){
+if (isNaN(numero)){
     numero = parseFloat(prompt("Insira um valor válido")) //enquanto o usuário não inserir um valor válido ele poderá tentar novamente
 }
 
