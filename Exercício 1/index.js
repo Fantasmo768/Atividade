@@ -1,6 +1,6 @@
 let numero = parseFloat(prompt("Insira um número")) // Declarar a váriavel
 
-while (isNaN(numero)){
+if (isNaN(numero)){
     numero = parseFloat(prompt("Insira um valor válido")) //enquanto o usuário não inserir um valor válido ele poderá tentar novamente
 }
 if (numero > 0) { //Condição com maior que zero e mostra de resultados
