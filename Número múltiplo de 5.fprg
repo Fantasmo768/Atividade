@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="N&#250;mero m&#250;ltiplo de 5"/>
+        <attribute name="authors" value="DES-I1HS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-07 01:35:22 "/>
+        <attribute name="created" value="REVTLUkxSFM7RVNONTEyTjhNVEI3NzQ7MjAyNS0wNC0wNzsiMDE6MzI6MzYgIjsyNjM3"/>
+        <attribute name="edited" value="REVTLUkxSFM7RVNONTEyTjhNVEI3NzQ7MjAyNS0wNC0wNzsiMDE6MzU6MjIgIjsxOzI3NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="V&#225;riavel que vai coletar o valor do n&#250;mero"/>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <comment text="Di&#225;logo que vai coletar a v&#225;riavel"/>
+            <output expression="&quot;Digite um n&#250;mero&quot;" newline="True"/>
+            <input variable="numero"/>
+            <comment text="Condi&#231;&#245;es e o que vai acontecer se ela for verdadeira"/>
+            <if expression="numero % 5 == 0">
+                <then>
+                    <output expression="&quot;Esse n&#250;mero &#233; m&#250;ltiplo de 5&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Esse n&#250;mero n&#227;o &#233; m&#250;ltiplo de 5&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

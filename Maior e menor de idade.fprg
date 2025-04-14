@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Maior e menor de idade"/>
+        <attribute name="authors" value="DES-I1HS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-07 12:48:50 "/>
+        <attribute name="created" value="REVTLUkxSFM7RVNONTEyTjhNVEI3NzQ7MjAyNS0wNC0wNzsiMTI6NDQ6MTQgIjsyNjM4"/>
+        <attribute name="edited" value="REVTLUkxSFM7RVNONTEyTjhNVEI3NzQ7MjAyNS0wNC0wNzsiMTI6NDg6NTAgIjsxOzI3NTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Declarando a v&#225;riavel que vai coletar o valor da idade"/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <comment text="Dialogo que vai coletar o valor da idade"/>
+            <output expression="&quot;Qual a sua idade&quot;" newline="True"/>
+            <input variable="idade"/>
+            <comment text="Condi&#231;&#245;es e o que vai acontecer caso as condi&#231;&#245;es sejam verdadeiras"/>
+            <if expression="idade &gt;= 18">
+                <then>
+                    <output expression="&quot;Voc&#234; &#233; maior de idade&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; &#233; menor de idade&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
